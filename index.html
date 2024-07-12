@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <title>Weather App</title>
+</head>
+
+<body>
+
+<div class="head">Weather App</div>
+    <div class="app-main">
+        <div class="input">
+            <input type="text" id="input-box" class="input-box" placeholder="Enter City Name here">
+            <button id="button"> <img src="https://github.com/swapnilsparsh/30DaysOfJavaScript/blob/master/25%20-%20Weather%20App/search.png?raw=true" alt="search" height="40px" width="40px"></button>
+        </div>
+    
+        <div class="weather-body">
+            <div class="location">
+                <div class="city" id="city">Enter Correct Country/City</div>
+                <div class="date" id="date"></div>
+            </div>
+
+            <div class="weather-status">
+                <div class="temp" id="temp"></div>
+                <div class="min-max" id="min-max"></div>
+                <div class="weather" id="weather"></div>
+                <div class="info">
+                    <div class="space">
+                        <div class="himg" id="himg"></div>
+                        <div class="humidity" id="humidity"></div>
+                    </div>
+                    <div class="space">
+                        <div class="wimg" id="wimg"></div>
+                        <div class="wind" id="wind"></div>
+                    </div>
+                    <div class="space">
+                        <div class="pimg" id="pimg"></div>
+                        <div class="pressure" id="pressure"></div>
+                    </div>
+                </div>
+                <div class="img" id="img"></div>
+            </div>
+
+        </div>
+        
+        <div id="myChart" style="width:100%; height:250px"></div>
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+
+</html>
